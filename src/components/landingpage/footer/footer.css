@@ -1,0 +1,24 @@
+.footer {
+    background-color: #0F1825;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    font-size: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .credits p {
+    color: #B6B5BF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .credits a {
+    cursor: pointer;
+    color: #6164FA;
+    text-decoration: none;
+  }

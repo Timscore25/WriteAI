@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    background-color:#ffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .name-section {
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .logoto {
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+
+  }
+
+  .logoto img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .account-section {
+    align-items: center;
+    display: flex;
+  }
+  
+  .account-button {
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px .875rem .5rem .875rem;
+  }
+  
+  #Log-In {
+    background-color: #F2F2F2;
+    color: #000000;
+  }
+  
+  #Sign-Up {
+    background-color: #171717;
+    color: #ffff;
+  }
+  
+  #Sign-Up:hover {
+    background-color: #171717e4;
+  }
+  
+  #Log-In:hover {
+    background-color: #EBEBEB;
+  }

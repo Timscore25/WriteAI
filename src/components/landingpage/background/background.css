@@ -1,0 +1,21 @@
+.bg-noise {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    opacity: .05;
+    background-repeat: repeat, no-repeat;
+    z-index: -1;
+    background-image: url("https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c5acd6c07e3c25ed49ea71_624d5860b71355f93453ff75_grain.gif");
+  }
+  
+  .bg-gradient {
+    position: fixed;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-image: url("https://uploads-ssl.webflow.com/62c435401c8f7261df7dac30/62c44e50efe5bfb56fdc13a4_Andy-hooke-bg%20(1).jpg");
+  }

@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .macwindow {
+    margin-top: 5vh;
+    justify-content: center;
+    display: flex;
+  }
+  

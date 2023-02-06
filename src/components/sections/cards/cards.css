@@ -1,0 +1,27 @@
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    background-color: #6164FA;
+    border-radius: 20px;
+    width: 25rem;
+    height: 35rem;
+    padding: 2rem;
+  }
+  
+  .card-content {
+  color: #ffffff;
+  }
+  
+  .card-btn {
+    color: #ffffff;
+    background-color: #9193fb;
+    border: none;
+    border-radius: 50px;
+    padding: 1em;
+    cursor: pointer;
+  }

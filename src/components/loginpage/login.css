@@ -1,0 +1,177 @@
+.main {
+    font-family: 'Unbounded', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+  background: #ffff;
+  padding: 40px;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 
+  rgb(97,100,250, 0.4) -5px 5px, 
+  rgb(97,100,250, 0.3) -10px 10px, 
+  rgb(97,100,250, 0.2) -15px 15px, 
+  rgb(97,100,250, 0.1) -20px 20px, 
+  rgb(97,100,250, 0.05) -25px 25px;
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab-group li a {
+  /* border-radius: 10px 0 0 10px; - to each component (login,signup) but reversed*/
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#signup {
+  border-radius: 10px 0 0 10px;
+}
+
+#login {
+  border-radius: 0 10px 10px 0;
+}
+
+.tab-group li a:hover {
+  background: rgb(97,100,250, 0.3);
+  color: #171717;
+}
+.tab-group .active a {
+  background: rgb(97,100,250, 1);
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #171717;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+label {
+    height: 2rem;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border-color);;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: background 0.3s;
+}
+label .req {
+  margin: 2px;
+  color: rgb(97,100,250);
+}
+
+label.active {
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  border-radius: 0;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: rgb(97,100,250, 0.3);
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+
+.buttona {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: rgb(97,100,250, 1);
+  color: #ffffff;
+}
+.buttona:hover, .buttona:focus {
+    background-color: rgb(97,100,250, 0.3);
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+
+  margin-top: -20px;
+  text-align: right;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    color: rgb(97,100,250, 1);
+}
+

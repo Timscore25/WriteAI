@@ -1,0 +1,21 @@
+.sections {
+    margin-top: 10vh;
+  }
+  
+  section {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: auto;
+    background-color: #0F1825;
+  }
+  
+  .section-content {
+    padding-top: 2rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .second-section {
+    padding-top: 6rem;
+  }
+  
