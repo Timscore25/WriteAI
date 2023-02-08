@@ -168,183 +168,22 @@ html {
 }
 
 .input-section {
-  display: none; /* this gets activated when the user clicks thge button and another tab shows */
+  /* display: none;*/ /*this gets activated when the user clicks thge button and another tab shows */
   padding: 30px 30px;
 }
 
-.input {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr 1fr;
-}
-
-.input-text {
-  height: 2rem;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  font-family: var(--body-font);
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0.5rem;
-  box-shadow: 0 0 0 2px rgb(134 140 160 / 2%);
-}
-
-.input-text:focus {
-  border: 1px solid rgb(97,100,250, 0.3);
-}
-
-.big {
-  grid-column: span 2;
-  height: 200px;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 35px 30px;
-  display: none; /* this gets activated when the user clicks thge button and another tab shows */
-}
-
-.button button {
-  width: 35px;
-  height: 35px;
-  color: #fff;
-  background-color: rgb(97,100,250, 1);
-  border-radius: 5px;
-  border: none;
-  padding: 10px;
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer
-}
-
-button:hover {
-  background-color: rgb(97,100,250, 0.3);
-  color: #171717;
-}
-
-.dropdown {
-  min-width: 15em;
-  position: relative;
-}
-
-.dropdown * {
-  box-sizing: border-box;
-}
-
-.select {
-  height: 2rem;
-  color: #757575;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid var(--border-color);;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0.5rem;
-  transition: background 0.3s;
-}
-
-/*
-  Clicked styles
-  (added Later in Javascript)
-*/
-
-.select-clicked {
-  border: 1px solid rgb(97,100,250, 0.5);
-}
-
-.select:hover {
-  border: 1px solid rgb(97,100,250, 0.3);
-  color: #171717;
-}
-
-.caret {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 6px solid #757575;;
-  transition: 0.4s;
-}
-
-/*
-  Rotate styles
-  (added Later in Javascript)
-*/
-
-.caret-rotate {
-  transform: rotate(180deg);
-}
-
-.menu {
-  list-style: none;
-  padding: 0.2em 0.5em;
-  border: 1px solid rgb(97,100,250, 0.3);
-  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0 4px 4px;
-  color: #757575;
-  position: absolute;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
-  opacity: 0;
-  display: none;
-  transition: 0.2s;
-  z-index: 1;
-  background: #ffffff;
-}
-
-.menu li {
-  padding: 8px;
-  margin: 1px 0;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.menu li:hover {
-  background: #F5F4FD;
-}
-
-/*
-Active styles
- (added Later in Javascript)
-*/
-.active {
-  background: #F5F4FD; /* to be changed */
-}
-
-/*
-Open styles
- (added Later in Javascript)
-*/
-.menu-open {
-  margin: 0;
-  display: block;
-  opacity: 1;
-}
-
-.selected-open {
-  border-radius: 4px 4px 0 0;
-}
-
-@media screen and (max-width: 600px) {
-  .input { /* need to make the input boxes go one below another for the low width screens */
-  grid-template-columns: 1fr;
-  }
-}
-
 .output-section{
+  display: none;
   display: flex;
   align-items: flex-end;
   height: 90%;
 }
 
-.output {
-}
+/*
+.output { 
+  
+} 
+*/
 
 .interaction {
   padding: 30px 30px;
