@@ -1,27 +1,29 @@
 import './mac-window.css';
 import './language';
 import SwitchImputs from './menuswitch';
-import { useState } from 'react';
 import EmailInput from './input/email-input';
 import ArticleInput from './input/article-input';
 import EssayInput from './input/essay-input';
 
-
 function MacWindow() {
 
-    const links = document.querySelectorAll('.menu-link');
+    const menuLinks = document.querySelectorAll('.menu-link');
+    // create a constant that selects all the menu links
     
-    if (links.length) {
-      links.forEach((link) => {
-        link.addEventListener('click', (e) => {
-          links.forEach((link) => {
-              link.classList.remove('is-active');
+    if (menuLinks.length) {
+      menuLinks.forEach((menuLink) => {
+        menuLink.addEventListener('click', (e) => {
+          menuLinks.forEach((menuLink) => {
+            menuLink.classList.remove('is-active');
+            // remove the is-active class from all the menu links
           });
           e.preventDefault();
-          link.classList.add('is-active');
+          menuLink.classList.add('is-active');
+          // add the is-active class to the clicked menu link
         });
       });
     }
+
   return (
     <div className="body">
         <div className="app">
@@ -32,7 +34,7 @@ function MacWindow() {
                 </div>
                 <div className="header-menu">
                     <a className="menu-link is-active" href="#" id='email' onClick={SwitchImputs}>Email</a>
-                    <a id='article' className="menu-link" href="#" onClick={SwitchImputs}>Article</a>
+                    <a className="menu-link" href="#" id='article' onClick={SwitchImputs}>Article</a>
                     <a className="menu-link" href="#" id='essay' onClick={SwitchImputs}>Essay</a>
                     <a className="menu-link" href="#" id='anything' onClick={SwitchImputs}>Ask Anything</a>
                 </div>
@@ -47,7 +49,6 @@ function MacWindow() {
                 <ArticleInput />
                 <EssayInput />
             </div>
-            {/* end of window 1 */}
             {/* window 2 */}
             <div className="output-section">
                 <div className="output"></div>

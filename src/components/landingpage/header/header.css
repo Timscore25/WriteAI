@@ -1,16 +1,9 @@
-header {
+  header {
     display: flex;
     justify-content: space-between;
     height: 52px;
     background-color:#ffff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .name-section {
-    width: auto;
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
   }
 
   .logoto {
