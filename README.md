@@ -1,5 +1,5 @@
 # 📝 WriteAI
-💻 Write smarter, not harder! 
+Write smarter, not harder!  
 WriteAI is an AI-powered platform that makes writing effortless and efficient. With its cutting-edge technology, users can generate emails, articles, essays, and other forms of text with ease.
 
 ## Features
