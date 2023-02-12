@@ -16,3 +16,5 @@ WriteAI is an AI-powered platform that makes writing effortless and efficient. W
 
 ## License
 📜 WriteAI is licensed under the [MIT License](LICENSE.md).
+
+![image](https://user-images.githubusercontent.com/99918741/218318384-d8e742bf-5162-44e4-ac83-767beca8a580.png)
